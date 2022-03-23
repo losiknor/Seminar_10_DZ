@@ -15,5 +15,6 @@
 // Группа 4: 8 12 18 20 27 28 30 42 44 45 50
 // Группа 5: 16 24 36 40
 // Группа 6: 32 48
-
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Введите число N : ");
+double n = double.Parse(Console.ReadLine());
+Console.WriteLine($"Для N = {n} можно получить  {Math.Ceiling(Math.Log(n,2))}  групп M");
